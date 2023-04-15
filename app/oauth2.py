@@ -16,7 +16,7 @@ oauth2_schema = OAuth2PasswordBearer(tokenUrl='login')
 SECRET_KEY = settings.secret_key
 ALGORITHM = settings.algorithm  # algorithm used for hash the password
 # time until the token is useless
-ACCESS_TOKEN_EXPIRE_MINUTES = settings.acces_token_expire_minutes
+ACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes
 
 
 def create_access_token(data: dict):
